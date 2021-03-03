@@ -21,4 +21,4 @@ plt.xlabel("Ano")
 plt.ylabel("População x100.000.000")
 
 
-plt.show()
+plt.savefig("../Figuras/population.png", dpi=300)
