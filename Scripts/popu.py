@@ -2,7 +2,7 @@
 #DataSus
 import matplotlib.pyplot as plt
 
-dados = open("../Dados/populacao_brasileira.csv").readlines()
+dados = open('/home/rafaeldsa/documentos/Visualizacao-de-Dados-com-Python/Dados/populacao_brasileira.csv').readlines()
 
 x = []
 y = []
@@ -21,4 +21,4 @@ plt.xlabel("Ano")
 plt.ylabel("População x100.000.000")
 
 
-plt.savefig("../Figuras/population.png", dpi=300)
+plt.show()
